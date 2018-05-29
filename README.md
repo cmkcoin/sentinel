@@ -1,12 +1,11 @@
-# Dash Sentinel
+# CMK Sentinel
 
 An all-powerful toolset for Dash.
 
 [![Build Status](https://travis-ci.org/cmkcoin/sentinel.svg?branch=master)](https://travis-ci.org/cmkcoin/sentinel)
 
-Sentinel is an autonomous agent for persisting, processing and automating Dash V12.1 governance objects and tasks, and for expanded functions in the upcoming Dash V13 release (Evolution).
-
-Sentinel is implemented as a Python application that binds to a local version 12.1 cmkd instance on each Dash V12.1 Masternode.
+Sentinel is an autonomous agent for persisting, processing and automating CMK V12.1 governance objects and tasks.
+Sentinel is implemented as a Python application that binds to a local version 12.1 cmkd instance on each CMK V12.1 Masternode.
 
 This guide covers installing Sentinel onto an existing 12.1 Masternode in Ubuntu 14.04 / 16.04.
 
@@ -23,7 +22,7 @@ Update system packages and ensure virtualenv is installed:
     $ sudo apt-get update
     $ sudo apt-get -y install python-virtualenv
 
-Make sure the local Dash daemon running is at least version 12.1 (120100)
+Make sure the local CMK daemon running is at least version
 
     $ cmk-cli getinfo | grep version
 
