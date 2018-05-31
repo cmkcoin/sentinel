@@ -85,3 +85,16 @@ Specifically:
 ### License
 
 Released under the MIT license, under the same terms as CmkCore itself. See [LICENSE](LICENSE) for more info.
+
+### cmk.conf
+rpcuser=[user]
+rpcpassword=[pass]
+rpcallowip=127.0.0.1
+externalip=[ip]
+rpcport=1770
+listen=1
+server=1
+daemon=1
+port=1769
+masternode=1
+masternodeprivkey=genkey
